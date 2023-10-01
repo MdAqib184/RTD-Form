@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="contactForm">
+            <p style="font-size: 30px; font-weight: 800; color: red;">Contact Form</p>
+            <div class="alert">Your message sent</div>
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Your name...." />
+                <input type="email" id="email" placeholder="Your Email....." />
+                <textarea id="msg" cols="4" rows="4" placeholder="Message...."></textarea>
+                <div class="error">Invalid name/email</div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="script.js "></script>
+</body>
+
+</html>
